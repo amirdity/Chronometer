@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  
+  font-family: monospace;
+  font-weight: bold;
+  background-image: url(assets/NYC.webp);
+  
+  background-repeat: no-repeat;
+  
+}
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/*  border: 5px solid;  */
+  border-radius: 50px;
+  padding: 7vw;
+  backdrop-filter: blur(10px);
+}
+.display {
+  font-size: 4rem;
+  margin-bottom: 5%;
+}
+.controls button {
+  font-size: 2rem;
+  margin: 3%;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  
+  transition: background-color 0.5s ease ;
+}
+.controls {
+  display: flex;
+  min-width: 400px;
+}
+.start-button {
+background-color: rgb(20, 230, 20);
+}
+.reset-button {
+  background-color: rgb(165, 205, 243);
+}
+.stop-button {
+  background-color: rgb(231, 32, 32);
+}
